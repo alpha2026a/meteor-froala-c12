@@ -1,4 +1,4 @@
-name: Auto Release – vue
+name: Auto Release – meteor
  
 on:
   pull_request:
