@@ -65,8 +65,8 @@ jobs:
           mkdir -p app/assets/stylesheets
           
           
-          rsync -av --delete /tmp/wysiwyg-main/assets/js/ app/assets/javascripts/
-          rsync -av --delete /tmp/wysiwyg-main/assets/css/ app/assets/stylesheets/
+          rsync -av --delete /tmp/wysiwyg-main/js/ assets/javascripts/
+          rsync -av --delete /tmp/wysiwyg-main/css/ assets/stylesheets/
 
 
       - name: Commit & push
