@@ -1,4 +1,4 @@
-name: Sync Version – wysiwyg-rails
+name: Sync Version – meteor
 
 on:
   repository_dispatch:
